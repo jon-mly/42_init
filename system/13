@@ -1,0 +1,6 @@
+# ps : etat des processus en cours
+# u -> nom d'utilisateur & heure de lancement
+# a -> processus des autres utilisateurs
+# x -> autres processus
+
+ps -uax

@@ -1,0 +1,2 @@
+# Deduction : emplacement du fichier contenant la version de Debian
+/etc/debian_version

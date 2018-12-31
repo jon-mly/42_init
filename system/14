@@ -1,0 +1,6 @@
+# "&" pour lancer une commande en background
+# verfication :
+# si pas en background -> tail, quit, jobs : rien en cours
+# si en background -> tail, quit, jobs : encore en cours
+
+tail -f /var/log/syslog &

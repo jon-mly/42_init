@@ -1,0 +1,3 @@
+# kill %[ID du processus indique par "jobs"]
+
+kill %1

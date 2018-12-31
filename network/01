@@ -1,0 +1,3 @@
+# -l flag : sur OSX, presente les interfaces disponibles sans info
+# supplementaire.
+ifconfig -l

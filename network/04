@@ -1,0 +1,6 @@
+# netstat -n : affiche les adresses et les numeros de ports
+# ------- -r : affiche la table de routage
+# default -> pour obtenir les gateways
+# sed : pour supprimer la premiere ligne et n'afficher que les gateways par
+# defaut.
+netstat -nr | grep 'default' | sed -n '1!p' | awk '{print $2}'

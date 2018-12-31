@@ -1,0 +1,3 @@
+# nslookup -> pour interroger un serveur a propos d'un domaine donne.
+
+nslookup slash16.org 8.8.8.8

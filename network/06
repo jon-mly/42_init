@@ -1,0 +1,5 @@
+/var/run/resolv.conf
+
+A la base contenu dans /etc/resolv.conf.
+Mais si ls -l sur ce fichier, on voit qu'il s'agit d'un lien symbolique
+redirigeant sur /var/run/resolv.conf.

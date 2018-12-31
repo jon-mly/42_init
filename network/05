@@ -1,0 +1,3 @@
+# dig : pour interroger des serveurs DNS
+# Adresse IP sous 'SERVER', entre les parentheses : akw pour l'extraire
+dig slash16.org | grep SERVER | awk -F '[()]' '{print $2}'

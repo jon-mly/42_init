@@ -1,0 +1,5 @@
+# utilisateurs reels sur la machine / humains
+# => a un dossier racine a la base de la machine
+# ce dossier racine porte le nom de l'utilisateur reel
+
+ls /home

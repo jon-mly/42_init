@@ -1,0 +1,3 @@
+# Liste des packages installes sur la machine
+
+dpkg --get-selections

@@ -1,0 +1,5 @@
+# Utilisateurs existants
+# /etc/passwd contient les informations de tous les utilisateurs du systeme
+# premiere colone : nom
+
+cat /etc/passwd | cut -d':' -f1

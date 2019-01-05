@@ -1,0 +1,4 @@
+Modifier /etc/hosts pour ajouter :
+46.19.122.85   intra.42.fr
+
+N'est possible qu'en root

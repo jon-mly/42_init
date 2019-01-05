@@ -1,2 +1,2 @@
 # en1 est la carte Wifi (principale)
-ifconfig en1 | grep 'ether' | cut -d' ' -f2
+ifconfig en0 | grep 'ether' | cut -d' ' -f2

@@ -1,3 +1,4 @@
+# dpkg : gestionnaire des packages
 # Liste des packages installes sur la machine
 
 dpkg --get-selections

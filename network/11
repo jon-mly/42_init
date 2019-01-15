@@ -1,1 +1,5 @@
-# Cf. output de taceroute
+# Cf. output de taceroute avec des domaines externes et internes :
+# traceroute google.fr / amazon.com / intra.42.fr (seul local)
+# 1er device a apparaitre quand externe :
+
+nat-1 (10.60.1.11)

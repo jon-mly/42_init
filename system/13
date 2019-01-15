@@ -1,6 +1,3 @@
-# ps : etat des processus en cours
-# u -> nom d'utilisateur & heure de lancement
-# a -> processus des autres utilisateurs
-# x -> autres processus
+# ps est une alternative mais pas en temps reel 
 
-ps -uax
+top

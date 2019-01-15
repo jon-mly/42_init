@@ -1,0 +1,4 @@
+# pgrep : cherche parmi les processus en cours d'exécution 
+# affiche sur la sortie standard les PID correspondants.
+
+pgrep sshd

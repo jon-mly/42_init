@@ -1,1 +1,4 @@
 # connexion parallele en SSH
+# Ex sur VM installee : ssh userssh@localhost
+
+ssh

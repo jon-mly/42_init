@@ -1,1 +1,4 @@
-# Clefs RSA des machines autorisees 
+# Clefs RSA des machines autorisees
+# N'apparait pas tant qu'aucune cle n'est creee et utilisee
+
+.ssh/authorized_keys

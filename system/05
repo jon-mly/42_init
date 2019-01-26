@@ -1,3 +1,1 @@
-# Note : "service" indisponible
-
 systemctl status ssh

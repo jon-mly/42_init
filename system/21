@@ -1,5 +1,6 @@
-# utilisateurs reels sur la machine / humains
-# => a un dossier racine a la base de la machine
-# ce dossier racine porte le nom de l'utilisateur reel
+# /etc/passwd contient tous les utilisateurs
+# utilisateur reel = UID >= 1000
+# cas 'nobody' a supprimer : pseudo user that represents the user
+# with the least permissions (not real)
 
-ls /home
+cat /etc/passwd | awk -F: '$3 >= 1000 && $1 != "nobody" {print $1}'

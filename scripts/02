@@ -1,3 +1,10 @@
+# Take user name as first parameter
+# List all process PIDs that belongs to the user
+# For each PID, kill (-9 = SIGKILL signal) the process
+# delete the user : 
+# 	"f" = force
+# 	"r" = remove all files and mail spool (if does exists)
+
 USER=$1
-pkill -u $USER
-userdel $USER
+pgrep -u $USER | xargs sudo kill -9
+sudo userdel -fr $USER

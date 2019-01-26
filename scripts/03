@@ -1,6 +1,11 @@
 # Script qui git add, commit, push, et envoie un mail
 # avec le contenu du commit
 
+COMMIT="$(curl "https://whatthecommit.com/index.txt")"
+echo $COMMIT
 sudo git add *
-sudo git commit -am "$(curl "https://whatthecommit.com/index.txt")"
+sudo git commit -am "${COMMIT}" 
 sudo git push
+echo "New commit has been pushed by me" | mail -s "${COMMIT}" jon.mly@gmail.com &
+
+# lorsqu'execute avec sh, mail est long, il faut attendre un peu avant la reception

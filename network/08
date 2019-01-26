@@ -1,5 +1,6 @@
 Hebergeur de slash16.org : 
 cloudfront => Amazon AWS
 
--> nslookup en reverse DNS donne nom d'hebergeur = cloudfront
+-> nslookup en reverse DNS (sur un des IP de la commande de 07)
+-> donne nom d'hebergeur = cloudfront
 -> cloudfront depend d'AWS

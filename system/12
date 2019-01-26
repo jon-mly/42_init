@@ -1,1 +1,3 @@
 du -h /var
+
+# -h : human readable

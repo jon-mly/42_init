@@ -3,4 +3,5 @@
 163.172.250.11
 
 # Obtenu avec :
-# nslookup 42.fr | grep 'Address' | awk '{print $2}' | sed -n '1!p'
+# nslookup 42.fr 8.8.8.8 | grep 'Address' | awk '{print $2}' | sed -n '1!p'
+# Pour obtenir l'IP public, il faut nslookup depuis l'exterieur, par ex Google

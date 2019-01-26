@@ -2,4 +2,8 @@
 
 -> En session graphique
 
+"su [nom de l'utilisateur ajoute]"
+
 -> En SSH
+
+"ssh [nom de l'utilisateur ajoute]@localhost"

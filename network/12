@@ -1,1 +1,3 @@
+# DHCP = kind of distributeur d'adresse ip sur un reseau donne.
+
 ifconfig en0 | grep 'inet ' | awk '{print $2}'

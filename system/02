@@ -1,3 +1,5 @@
 # Doit etre en root -> "su" si necessaire
 
 hostname newname
+
+# verifier avec "hostname"

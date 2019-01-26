@@ -1,5 +1,3 @@
-fdisk -l
-
-# OU
-
 lsblk
+
+# aussi fdisk -l mais en root only

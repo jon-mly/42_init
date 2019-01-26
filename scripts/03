@@ -1,1 +1,6 @@
-# Script aui teste une commande, si elle echoue, envoie un mail
+# Script qui git add, commit, push, et envoie un mail
+# avec le contenu du commit
+
+sudo git add *
+sudo git commit -am "$(curl "https://whatthecommit.com/index.txt")"
+sudo git push
